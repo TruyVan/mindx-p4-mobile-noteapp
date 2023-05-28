@@ -89,14 +89,18 @@ def reactNativeArchitectures() {
 }
 
 android {
+    compileSdkVersion 27
+    buildToolsVersion "27.0.3"
     ndkVersion rootProject.ext.ndkVersion
 
     compileSdkVersion rootProject.ext.compileSdkVersion
 
-    namespace "com.noteaplication"
+    namespace "com.rn0710"
     defaultConfig {
-        applicationId "com.noteaplication"
+        applicationId "com.rn0710"
         minSdkVersion rootProject.ext.minSdkVersion
+        vectorDrawables.useSupportLibrary = true
+        targetSdkVersion 27
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
         versionName "1.0"
