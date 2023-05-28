@@ -3,7 +3,10 @@ const Images = {
     loginScreen: {
       user: require('./icons/user.png'),
       password: require('./icons/lock.png'),
-    },
+    }
+  },
+  banner : {
+    banner : require('./icons/logo.png')
   },
 };
 

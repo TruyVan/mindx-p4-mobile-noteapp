@@ -8,6 +8,7 @@ import {TAB_NAVIGATION_ROOT} from '../../navigation/config/routes';
 import {navigate} from '../../navigation/NavigationService';
 import ImagePicker from 'react-native-image-crop-picker';
 
+
 const LoginScreen = () => {
   const [formData, setFormData] = useState(false);
 
@@ -31,7 +32,7 @@ const LoginScreen = () => {
       <View style={styles.header}>
         <Image
         style ={styles.logo}
-        source = {{uri : 'https://logopond.com/logos/64f98063d317d8b96dfe4c79b073d6cc.png'}} />
+        source = {Images.banner.banner} />
         <Text style={styles.welcomeText}>MR.BURGER</Text>
         <Text style={styles.descriptionText}>Đăng nhập tài khoản</Text>
       </View>
