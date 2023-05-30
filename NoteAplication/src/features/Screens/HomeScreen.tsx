@@ -2,16 +2,15 @@ import {StyleSheet, Text, View, Image, Button} from 'react-native';
 import React from 'react';
 import {TAB_NAVIGATION_ROOT} from '../../navigation/config/routes';
 import {navigate} from '../../navigation/NavigationService';
+import { TouchableOpacity } from 'react-native-gesture-handler';
+import StyledInput from '../../components/common/StyledInput';
 
 
 const HomeScreen = ({route, props}: any) => {
-  const goToStart = () => {
-    navigate(TAB_NAVIGATION_ROOT.BOTTOMTAB_ROUTE.BOTTOMTAB, {
-    });
-  };
+
   return (
     <View>
-      <Text>Home</Text>
+      <StyledInput label='' placeholderText='Search Here'/>
     </View>
   );
 };

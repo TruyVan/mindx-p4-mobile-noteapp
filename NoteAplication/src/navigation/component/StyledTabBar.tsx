@@ -46,7 +46,7 @@ const StyledTabBar = ({state, descriptors, navigation}: any) => {
               style={[
                 styles.tabIcon,
                 {
-                  tintColor: isFocused ? 'red' : 'black',
+                  tintColor: isFocused ? '#666' : 'black',
                 },
               ]}
             />

@@ -23,8 +23,9 @@ const AppStack = () => {
 };
 
 const Root = () => {
+
   return <AuthStack />;
-  return <AppStack />;
+
 };
 
 export default Root;
